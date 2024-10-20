@@ -31,4 +31,16 @@ public class Benchmark
         return _rowNumbers.SingleOrDefault(z => z == 500)!;
     }
     
+    [Benchmark]
+    public int SingleRow()
+    {
+        return _rowNumbers.Single(z => z == 500)!;
+    }
+    
+    [Benchmark]
+    public int FirstRow()
+    {
+        return _rowNumbers.First(z => z == 500)!;
+    }
+    
 }

@@ -5,11 +5,11 @@ using BenchmarkDotNet.Running;
 using BenchmarkDotNet.Validators;
 using FirstOrDefault;
 
-List<int> list = [1, 2, 3, 4, 5];
+//List<int> list = [1, 2, 3, 4, 5];
 
-var a = list.Find(z => z == 3);
+//var a = list.Find(z => z == 3);
 
-var b = list.FirstOrDefault(z => z == 3);
+//var b = list.FirstOrDefault(z => z == 3);
 
 #region BenckMark Rows
 

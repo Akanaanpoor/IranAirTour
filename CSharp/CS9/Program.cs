@@ -25,7 +25,7 @@ namespace CS9
 
             Product_2 myProduct = new Product_2 { Name = "IPhone 13 Pro Max", Description = "Apple" };
 
-            //myProduct.Name = "My Product 2"; // This would throw an error
+           // myProduct.Name = "My Product 2"; // This would throw an error
 
             #endregion
 
@@ -47,7 +47,7 @@ namespace CS9
 
             Person firstPerson = new("Aref", "Kanaanpour");
 
-            var otherPerson = firstPerson with { LastName = "Kanaanpoor" };
+            var otherPerson = firstPerson with { LastName = "asdasdasdad" };
 
             #endregion
 
@@ -90,6 +90,7 @@ namespace CS9
             #region #7: Static lambda expressions and anonymous functions
 
             const double RequiredScore = 3;
+            var harchi = 2;
             var students = new List<Student>() 
             { 
                 new Student("Hermit", "Purple", Grade: 2),
@@ -98,7 +99,7 @@ namespace CS9
             };
 
             var highScoreStudents =
-                students.Where(static x => x.Grade > RequiredScore);
+                students.Where( x => x.Grade > RequiredScore);
 
             #endregion
             
